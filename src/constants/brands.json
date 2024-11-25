@@ -1,0 +1,62 @@
+[
+  {
+    "image": "../assets/image/delivery-1.png",
+    "title": "LivRelief",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-2.jpg",
+    "title": "Msiku",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-3.jpg",
+    "title": "Ghost Drops",
+    "love": false
+  },
+  {
+    "image": "../assets/image/delivery-4.jpg",
+    "title": "Foray",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-5.jpg",
+    "title": "SHRED",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-6.png",
+    "title": "Cookies",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-7.jpg",
+    "title": "RAD",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-8.jpg",
+    "title": "Ace Valley",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-9.jpg",
+    "title": "XMG",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-10.jpg",
+    "title": "Artisan Batch",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-11.png",
+    "title": "Chowie Wowie",
+    "love": true
+  },
+  {
+    "image": "../assets/image/delivery-12.jpg",
+    "title": "Aurora Drift",
+    "love": true
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "image": "../assets/image/materials-1.jpg",
+    "title": "Royal City Cannabis Co. - RC Royal Goddess (God Bud x Apple Jack) - Indica - 3.5g Each",
+    "detail": "By Green Merchant - 1077 Bloor St W",
+    "link": "https://potrider.com/royal-city-cannabis-co-rc-royal-goddess-god-bud-x-apple-jack-indica-35g-product-144",
+    "love": true,
+    "rate": 0,
+    "count": 5
+  },
+  {
+    "image": "../assets/image/materials-2.webp",
+    "title": "ELEMENTS DISPOSABLE SKYWALKER Each",
+    "detail": "By Chillin Cheetah",
+    "link": "https://potrider.com/elements-disposable-skywalker-product-336",
+    "love": true,
+    "rate": 0,
+    "count": 4
+  },
+  {
+    "image": "../assets/image/materials-3.jpeg",
+    "title": "EDISON Black Cherry Punch - 1G Each",
+    "detail": "By Wonderland Cannabis",
+    "link": "https://potrider.com/edison-black-cherry-punch-1g-product-142",
+    "love": false,
+    "rate": 0,
+    "count": 3
+  },
+  {
+    "image": "../assets/image/materials-4.jpg",
+    "title": "Pure Sunfarms - Pink Kush - Indica - 7g Each",
+    "detail": "By the 420 Place",
+    "link": "https://potrider.com/pure-sunfarms-pink-kush-indica-7g-product-230",
+    "love": true,
+    "rate": 5,
+    "count": 0
+  },
+  {
+    "image": "../assets/image/materials-5.jpg",
+    "title": "Nature'S HEALING CBD SALVE Each",
+    "detail": "By Chillin Cheetah",
+    "link": "https://potrider.com/natures-healing-cbd-salve-product-384",
+    "love": true,
+    "rate": 5,
+    "count": 0
+  },
+  {
+    "image": "../assets/image/materials-6.webp",
+    "title": "SKYWALKER 1/2 oz",
+    "detail": "By Chillin Cheetah",
+    "link": "https://potrider.com/skywalker-product-288",
+    "love": true,
+    "rate": 3,
+    "count": 0
+  },
+  {
+    "image": "../assets/image/materials-7.webp",
+    "title": "ELEMENTS KIT KING LOUIS Each",
+    "detail": "By Chillin Cheetah",
+    "link": "https://potrider.com/elements-kit-king-louis-product-342",
+    "love": true,
+    "rate": 2,
+    "count": 0
+  },
+  {
+    "image": "../assets/image/materials-8.webp",
+    "title": "ELEMENTS CARTRIDGE KING LOUIS Each",
+    "detail": "By Chillin Cheetah",
+    "link": "https://potrider.com/elements-cartridge-king-louis-product-327",
+    "love": true,
+    "rate": 1,
+    "count": 0
+  }
+]

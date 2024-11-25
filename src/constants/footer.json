@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Discover",
+    "content": [
+      {
+        "name": "Delivery",
+        "link": "https://potrider.com/deliveries"
+      },
+      {
+        "name": "Strains",
+        "link": "#"
+      },
+      {
+        "name": "Brands",
+        "link": "https://potrider.com/brands"
+      },
+      {
+        "name": "Products",
+        "link": "https://potrider.com/products"
+      },
+      {
+        "name": "Deals",
+        "link": "https://potrider.com/deals"
+      },
+      {
+        "name": "About Us",
+        "link": "https://potrider.com/about-us"
+      },
+      {
+        "name": "Contact Us",
+        "link": "https://potrider.com/contact"
+      }
+    ]
+  },
+  {
+    "title": "Business",
+    "content": [
+      {
+        "name": "Create Your Store",
+        "link": "#"
+      },
+      {
+        "name": "Right Your Business",
+        "link": "https://potrider.com/business-signup"
+      },
+      {
+        "name": "Terms of Use",
+        "link": "https://potrider.com/terms"
+      },
+      {
+        "name": "Privacy Policy",
+        "link": "https://potrider.com/privacy"
+      }
+    ]
+  },
+  {
+    "title": "Contact us",
+    "content": [
+      {
+        "icon": 1,
+        "name": "+1-234-567890",
+        "link": "#"
+      },
+      {
+        "icon": 2,
+        "name": "sales@potrider.com",
+        "link": "mailto:sales@potrider.com"
+      },
+      {
+        "icon": 2,
+        "name": "support@potrider.com",
+        "link": "mailto:support@potrider.com"
+      },
+      {
+        "name": "icon",
+        "link": "#"
+      }
+    ]
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "title" : "Departments",
+    "list" : [
+      {
+        "name" : "Food",
+        "link" : "https://www.instacart.ca/categories/316-food"
+      },
+      {
+        "name" : "Pantry",
+        "link" : "https://www.instacart.ca/categories/316-food/844-pantry"
+      },
+      {
+        "name" : "Seafood",
+        "link" : "https://www.instacart.ca/categories/316-food/1974-seafood"
+      },
+      {
+        "name" : "Baked goods",
+        "link" : "https://www.instacart.ca/categories/316-food/1300-baked-goods"
+      },
+      {
+        "name" : "Dairy",
+        "link" : "https://www.instacart.ca/categories/316-food/1326-dairy"
+      },
+      {
+        "name" : "Fresh produce",
+        "link" : "https://www.instacart.ca/categories/316-food/317-fresh-produce"
+      },
+      {
+        "name" : "Deli",
+        "link" : "https://www.instacart.ca/categories/316-food/1268-deli"
+      },
+      {
+        "name" : "Fronzen food",
+        "link" : "https://www.instacart.ca/categories/316-food/627-frozen-food"
+      },
+      {
+        "name" : "Meat",
+        "link" : "https://www.instacart.ca/categories/316-food/1807-meat"
+      },
+      {
+        "name" : "Meat alternatives",
+        "link" : "https://www.instacart.ca/categories/316-food/831-meat-alternatives"
+      },
+      {
+        "name" : "Beverages",
+        "link" : "https://www.instacart.ca/categories/243-beverages"
+      },
+      {
+        "name" : "Alcohol",
+        "link" : "https://www.instacart.ca/categories/2-alcohol"
+      },
+      {
+        "name" : "Wine",
+        "link" : "https://www.instacart.ca/categories/2-alcohol/91-wine"
+      },
+      {
+        "name" : "Liquor",
+        "link" : "https://www.instacart.ca/categories/2-alcohol/56-spirits"
+      },
+      {
+        "name" : "Beer",
+        "link" : "https://www.instacart.ca/categories/2-alcohol/3-beer"
+      },
+      {
+        "name" : "Coffee",
+        "link" : "https://www.instacart.ca/categories/243-beverages/244-coffee"
+      },
+      {
+        "name" : "Juice",
+        "link" : "https://www.instacart.ca/categories/243-beverages/255-juice"
+      },
+      {
+        "name" : "Soda",
+        "link" : "https://www.instacart.ca/categories/243-beverages/285-soda"
+      },
+      {
+        "name" : "Tea",
+        "link" : "https://www.instacart.ca/categories/243-beverages/293-tea"
+      },
+      {
+        "name" : "Water",
+        "link" : "https://www.instacart.ca/categories/243-beverages/311-water"
+      },
+      {
+        "name" : "Organic grocery",
+        "link" : "https://www.instacart.ca/shop/organic-food"
+      }
+    ]
+  },
+  {
+    "title" : "More ways to shop",
+    "list" : [
+      {
+        "name" : "Shop by location",
+        "link" : "https://www.instacart.ca/grocery-delivery"
+      },
+      {
+        "name" : "Shop online deals",
+        "link" : "https://www.instacart.ca/store/hub/deals_tab"
+      },
+      {
+        "name" : "Send gifts",
+        "link" : "https://www.instacart.ca/store/hub/gifts"
+      },
+      {
+        "name" : "Alcohol",
+        "link" : "https://www.instacart.ca/store/hub/alcohol"
+      },
+      {
+        "name" : "Convenience",
+        "link" : "https://www.instacart.ca/store/hub/convenience"
+      },
+      {
+        "name" : "Ready meals",
+        "link" : "https://www.instacart.ca/store/hub/ready_meals"
+      },
+      {
+        "name" : "Automotive",
+        "link" : "https://www.instacart.ca/categories/2964-automotive"
+      },
+      {
+        "name" : "Baby supplies",
+        "link" : "https://www.instacart.ca/categories/1728-baby"
+      },
+      {
+        "name" : "Beauty products",
+        "link" : "https://www.instacart.ca/categories/1484-beauty"
+      },
+      {
+        "name" : "Clothing and apparel",
+        "link" : "https://www.instacart.ca/categories/2720-apparel"
+      },
+      {
+        "name" : "Electronics",
+        "link" : "https://www.instacart.ca/categories/1772-electronics"
+      },
+      {
+        "name" : "Flowers",
+        "link" : "https://www.instacart.ca/categories/4041-floral"
+      },
+      {
+        "name" : "Furniture",
+        "link" : "https://www.instacart.ca/categories/2739-furniture"
+      },
+      {
+        "name" : "Health care",
+        "link" : "https://www.instacart.ca/categories/1662-health-care"
+      },
+      {
+        "name" : "Home and garden",
+        "link" : "https://www.instacart.ca/categories/1779-home-and-garden"
+      },
+      {
+        "name" : "Household essentials",
+        "link" : "https://www.instacart.ca/categories/1361-household-essentials"
+      },
+      {
+        "name" : "Ice",
+        "link" : "https://www.instacart.ca/categories/1805-ice"
+      },
+      {
+        "name" : "Office supplies",
+        "link" : "https://www.instacart.ca/categories/1764-office-supplies"
+      },
+      {
+        "name" : "Party supplies",
+        "link" : "https://www.instacart.ca/categories/1790-party-and-occasions"
+      },
+      {
+        "name" : "Personal care",
+        "link" : "https://www.instacart.ca/categories/1602-personal-care"
+      },
+      {
+        "name" : "Pet supplies",
+        "link" : "https://www.instacart.ca/categories/1447-pet-care"
+      },
+      {
+        "name" : "Sports and outdoors",
+        "link" : "https://www.instacart.ca/categories/1776-sports-and-outdoors"
+      }
+    ]
+  },
+  {
+    "title" : "Help",
+    "list" : [
+      {
+        "name" : "Contact",
+        "link" : "https://www.instacart.com/company/contact-us"
+      },
+      {
+        "name" : "Press",
+        "link" : "https://instacart.com/company/newsroom"
+      },
+      {
+        "name" : "Blog",
+        "link" : "https://instacart.com/company/blog"
+      },
+      {
+        "name" : "Help",
+        "link" : "https://www.instacart.ca/help"
+      },
+      {
+        "name" : "Careers",
+        "link" : "https://instacart.careers"
+      },
+      {
+        "name" : "Privacy",
+        "link" : "https://www.instacart.ca/privacy"
+      },
+      {
+        "name" : "Health Data Notice",
+        "link" : "https://www.instacart.com/p/health_privacy_policy"
+      },
+      {
+        "name" : "Terms",
+        "link" : "https://www.instacart.ca/terms"
+      },
+      {
+        "name" : "Instacart+",
+        "link" : "https://www.instacart.ca/instacart-plus"
+      },
+      {
+        "name" : "Advertise on Instacart",
+        "link" : "https://ads.instacart.com/"
+      },
+      {
+        "name" : "Partner program",
+        "link" : "https://www.instacart.com/company/contact-us/"
+      },
+      {
+        "name" : "Gift cards",
+        "link" : "https://www.instacart.ca/gift-cards"
+      },
+      {
+        "name" : "Shoppers",
+        "link" : "https://shoppers.instacart.ca"
+      },
+      {
+        "name" : "Shopper locations",
+        "link" : "https://shoppers.instacart.ca/instacart-jobs"
+      },
+      {
+        "name" : "Promos & Coupons",
+        "link" : "https://www.instacart.ca/promos-and-coupons"
+      },
+      {
+        "name" : "Grocery Budget Calculator",
+        "link" : "https://www.instacart.ca/promos-and-coupons"
+      }
+    ]
+  }
+]
