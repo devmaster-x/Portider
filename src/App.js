@@ -3,11 +3,7 @@ import './App.css'
 import {
   Header,
   GuideSection,
-  // ChooseStore,
-  // GetExperience,
   Intro,
-  // MarketPlace,
-  // CommonQuestions,
   WideRange,
   FeaturedBrands,
   Areas,
@@ -32,14 +28,10 @@ function App() {
           >
             <Header />
             <GuideSection />
-            {/* <GetExperience /> */}
-            <Intro />
-            {/* <ChooseStore /> */}
-            <WideRange />
             <FeaturedBrands />
+            <Intro />
+            {/* <WideRange /> */}
             <Areas />
-            {/* <MarketPlace /> */}
-            {/* <CommonQuestions /> */}
             <Footer />
             <Sidebar />
             <ScrollToTop />

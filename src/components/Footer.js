@@ -109,7 +109,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='text-center p-6'>Copyright © <span className='font-bold'>Potrider</span>. Powered by <span className='font-bold'>Autoaid</span></div>
+      <div className='text-center p-6'>
+        Copyright © <span className='font-bold'>Potrider</span>. Powered by {' '}
+        <a href="https://metaversedevelopment.world" className="text-green-600 font-bold underline">Metaverse Development</a>
+      </div>
     </footer>
   );
 }

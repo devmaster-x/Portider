@@ -1,78 +1,56 @@
-import { motion } from "framer-motion";
+import React from 'react';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-function Areas() {
+// Map container style
+const containerStyle = {
+  height: "80vh",
+  width: "100%"
+};
+
+// Default center of the map (e.g., Toronto)
+const defaultCenter = {
+  lat: 43.65107,
+  lng: -79.347015,
+};
+
+// Delivery places
+const deliveryPlaces = [
+  { name: 'Oakville', location: { lat: 43.467517, lng: -79.687666 } },
+  { name: 'Mississauga', location: { lat: 43.589045, lng: -79.64412 } },
+  { name: 'Brampton', location: { lat: 43.731548, lng: -79.762418 } },
+  { name: 'Milton', location: { lat: 43.518299, lng: -79.877404 } },
+  { name: 'Etobicoke', location: { lat: 43.654187, lng: -79.567981 } },
+  { name: 'Toronto', location: { lat: 43.70011, lng: -79.4163 } },
+];
+
+
+const Areas = () => {
   return (
-    <div className="flex flex-col justify-center text-center w-1/2 mx-auto mb-12">
-      <h1 className="text-3xl md:text-5xl font-bold">Areas We Deliver</h1>
-      <p className="py-8 text-md md:text-xl text-center text-[#616161]">
-        Select a country from below to check if we are available in your area
-      </p>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* USA */}
-        <motion.a 
-          href="#" 
-          className="flex w-full items-center justify-center flex-wrap rounded-[10px] overflow-hidden shadow-lg transition-all duration-300 relative"
-          whileHover="hover"
-          initial="hidden"
-          animate="visible"
-        >
-          {/* Parent Hover State Controls Both */}
-          <motion.img
-            src="../assets/image/US.webp"
-            alt="USA"
-            className="object-cover h-full w-full align-middle"
-            variants={{
-              hover: { scale: 1.2 },
-              hidden: { scale: 1 },
-            }}
-            transition={{ duration: 0.3 }}
-          />
-          <motion.p
-            className="absolute z-10 font-bold text-2xl text-white text-center"
-            variants={{
-              hover: { scale: 1.5, opacity: 1 },
-              hidden: { scale: 1, opacity: 0 },
-            }}
-            transition={{ duration: 0.3 }}
+    <div className="areas-section py-12">
+      <div className="container mx-auto">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-6">Our Delivery Areas</h2>
+        <p className="text-md md:text-xl text-center text-[#616161] mb-8">
+          Explore our coverage areas. We deliver to the following locations quickly and efficiently.
+        </p>
+        {/* Google Map */}
+        <LoadScript googleMapsApiKey={process.env.REACT_APP_MAP_KEY}>
+          <GoogleMap
+            mapContainerStyle={containerStyle}
+            center={defaultCenter}
+            zoom={10}
           >
-            USA
-          </motion.p>
-        </motion.a>
-
-        {/* Canada */}
-        <motion.a 
-          href="#" 
-          className="flex w-full items-center justify-center flex-wrap rounded-[10px] overflow-hidden shadow-lg transition-all duration-300 relative"
-          whileHover="hover"
-          initial="hidden"
-          animate="visible"
-        >
-          {/* Parent Hover State Controls Both */}
-          <motion.img
-            src="../assets/image/Canada.webp"
-            alt="Canada"
-            className="object-cover h-full w-full align-middle"
-            variants={{
-              hover: { scale: 1.2 },
-              hidden: { scale: 1 },
-            }}
-            transition={{ duration: 0.3 }}
-          />
-          <motion.p
-            className="absolute z-10 font-bold text-2xl text-white text-center"
-            variants={{
-              hover: { scale: 1.5, opacity: 1 },
-              hidden: { scale: 1, opacity: 0 },
-            }}
-            transition={{ duration: 0.3 }}
-          >
-            CANADA
-          </motion.p>
-        </motion.a>
+            {deliveryPlaces.map((place, index) => (
+              <Marker
+                key={index}
+                position={place.location}
+                title={place.name}
+              />
+            ))}
+          </GoogleMap>
+        </LoadScript>
       </div>
     </div>
   );
-}
+};
 
 export default Areas;

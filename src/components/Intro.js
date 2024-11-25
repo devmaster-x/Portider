@@ -7,7 +7,7 @@ function Intro() {
   const { isSmall } = useDataContext();
   return (
     <motion.div
-      className="bg-[#FAFAFA]"
+      className="bg-gray-100"
       initial="hidden"
       animate="visible"
       variants={{
@@ -16,7 +16,7 @@ function Intro() {
       }}
     >
       <motion.div 
-        className="max-w-[1160px] px-4 py-12 md:py-24 mx-auto flex flex-col bg-[#FAFAFA]"
+        className="max-w-[1160px] px-4 py-12 md:py-24 mx-auto flex flex-col"
       >
         <h2 className='pb-8 text-3xl md:text-5xl text-center font-bold'>Our Top Deals</h2>
         <p className='pb-8 text-md md:text-xl text-center text-[#616161]'>These are the Top Deals on our Platform so far</p>
